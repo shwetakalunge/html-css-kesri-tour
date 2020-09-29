@@ -23,6 +23,14 @@
     background-color: #b2a6a6;
     height: 580px;
 }
+       select{
+           width: 100%;
+        padding: 4px 4px;
+            float: right;
+            margin-top: 15px;
+            font-size: 11px;
+          
+     }
 }
 
 
@@ -168,7 +176,7 @@
         
 }
     .International-group-tour-show-case{
-         height: 250px;
+         height: 260px;
     }
     .International-group-tour-show-case h3{
          font-size: 14px;
@@ -182,37 +190,48 @@
     opacity: 0.7;
      width: 110%;
     padding: 11px;
+   -webkit-transform: scale(1.20);
    transform: scale(1.20);
-    transition: transform 0.5s;opacity: 0.5s;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;opacity: 0.5s;
+        margin-bottom: 0px
 }
  
     .plan-your-holiday{
-      margin-top:30px;
-        height: 180px;
+      margin-top:060px;
+        height: 120px;
         width: 100%;
+        margin-bottom: 20px
     }
     .plan-div h3{
-        margin-left: 155px;
+        margin-left: 100px;
         text-align: center;
          margin-bottom: 0px;
-        margin-top: 55px;
+        margin-top: 0px;
+        float: left
+    
      }
-     
+  
         select{
-        width: 100px;
-       padding: 15px 5px;
-        margin-top: 1px;
-    }
-       
-    .plan-btn-full{
-           margin-right: 250px;
-          margin-left: 185px;
-        margin-top: 100px;
-        float: right;
-        display: none;
+        width: 70px;
+       padding: 4px 4px;
+            float: right;
+            margin-top: 35px;
+            font-size: 9px
+     }
+    .plan-div a{
+        width: 110%;
+        height: 30px;
+        margin-bottom: 0px;
+        margin-right: 110px;
+        
             
-      
-    }   
+    }
+    .plan-btn-full{
+         margin-right: 150px;
+        }
     .kesari-story-heading h3{
         font-size: 13px;
         text-align: center
@@ -298,26 +317,43 @@
         margin-bottom: 20px;
     }
     .plan-your-holiday{
-      margin-top:1300px;
+      margin-top:1080px;
         height: 200px;
         width: 100%;
     }
     .plan-your-holiday h3{
-        margin-left: 175px;
+        margin-left: 105px;
         text-align: center;
          margin-bottom: 2px;
         
     }
     .plan-div{
-       padding: 3px;
-        
+       padding: 1px 15px;
     }
     .plan-btn-full{
-        float: left;
-        margin-right: 250px;
-          margin-left: 185px;
-      
-    
+      text-align: center;
+    }
+    .plan-div a{
+        padding: 5px 1px;
+        margin-right: 125px;
+    }
+      select{
+        width: 70px;
+       padding: 1px 1px;
+           -ms-flex-line-pack: center;
+           align-content: center;
+            margin-top: 1px;
+            font-size: 9px;
+          margin-right: 120px
+        
+     }
+    .plan-div a{
+        width: 20%;
+        height: 30px;
+        margin-bottom: 0px;
+        float: right;
+        
+            
     }
     .story-section{
      height: 50px;
@@ -334,7 +370,7 @@
     height: 20px;
     text-align: center;
     color: white;
-    margin-right: 120px;
+    margin-right: 170px;
 }
     cite img{
     height: 80px;
